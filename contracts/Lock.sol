@@ -6,7 +6,7 @@ pragma solidity ^0.8.0;
 contract Coffe {
     // Event to emit when a Memo is created.
     event NewMemo(
-        address indexed from,
+        address from,
         uint256 timestamp,
         string name,
         string message
